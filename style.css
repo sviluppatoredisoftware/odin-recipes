@@ -1,0 +1,18 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+    text-align: center;
+
+}
+ul, ol{
+    display: inline-block;
+    text-align: left;
+}
+h1,h2{
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color:black;
+}
