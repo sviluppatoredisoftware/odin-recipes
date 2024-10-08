@@ -1,18 +1,34 @@
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: beige;
-    text-align: center;
-
+html{
+    box-sizing: border-box;
+    background-color: azure;
 }
-ul, ol{
-    display: inline-block;
-    text-align: left;
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 20px;
+    padding: 0;
 }
-h1,h2{
-    text-transform: uppercase;
+.container{
+    display: flex;
+    flex-direction: column;
 }
-a{
-    text-decoration: none;
-    font-weight: 700;
-    color:black;
+.container div{
+    flex:1;
+    max-width: 900px;
+}
+.item0{
+    max-width: 200px;
+    height: auto;
+}
+.item1{
+    max-width: 200px;
+    height: auto;
+}
+.item2{
+    max-width: 200px;
+    height: auto;
+}
+li, ul,ol{
+    display:block;
 }
